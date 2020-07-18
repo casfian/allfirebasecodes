@@ -1,4 +1,7 @@
 //Firebase Cloud Messaging
+//this one I tried on iPhone but Should work in Android Phone
+//Make sure configure Android XML
+
 //dependencies Pubspec.yaml
 dependencies:
   flutter:
@@ -6,7 +9,7 @@ dependencies:
   firebase_messaging: ^4.0.0+3
 
 //main.dart
-
+//-------------
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 
